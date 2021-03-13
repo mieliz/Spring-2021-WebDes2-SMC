@@ -1,0 +1,22 @@
+/* GENERIC RULES */
+body {
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+.bg-blue {
+    background-color: rgb(93, 135, 224, 0.993);
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav ul a {
+    color:grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

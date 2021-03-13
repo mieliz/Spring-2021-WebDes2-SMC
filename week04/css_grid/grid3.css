@@ -1,0 +1,95 @@
+@import url("reset.css");
+@import url("colors.css");
+
+.grid-container {
+display: grid;
+grid-template-columns: 120px 120px 120px;
+grid-template-rows: repeat(4, 25%);
+gap:20px;
+height:100vh;
+}
+
+.grid-item {
+    border-radius: 10px;
+}
+.grid-item:first-child {
+    grid-column: 1/ span 3;
+    grid-row: 1;
+}
+.bg-scarlet {
+    grid-column: 1;
+    grid-row: 2;
+}
+.bg-purple {
+    grid-column: 2/ span 2;
+    grid-row: 2;
+}
+.bg-green{
+    grid-column:1/ span 3; 
+    grid-row: 3;
+    height: auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-gap: 16px;
+}
+
+/* IPAD MEDIA QUERY */
+@media (min-width:768px){
+    section{
+        width:760px;
+        margin: auto;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(4,25%);
+        grid-template-rows: 50px 1fr 50px 50px;
+        height:50vh;
+    }
+
+    .grid-item:nth-child(5){
+        grid-row:auto;
+    }
+    .grid-item{
+        border: solid;
+        border-radius: 10px;
+        border-color: violet;
+        background-color: transparent;
+        border-width: 2px;
+    }
+    .grid-item.bg-blue {
+       
+    }
+    .grid-item.bg-scarlet{
+    
+    }
+    .grid-item.bg-purple{
+        background-color: transparent; 
+    }
+    #kawaiinails{
+        border-radius: 10px; 
+    }
+    .grid-item.bg-green{
+        
+
+    } 
+
+
+    .logo{
+    float: left;
+    margin:10px 0px 0px 10px;
+    color: grey;
+    }
+    
+    ul li{
+    display: block;
+    float: right;
+    padding: 0px 10px 0px 10px;
+    color:grey;
+    }
+    a{
+    text-decoration: none;
+    color: grey;
+    }
+}
