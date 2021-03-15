@@ -1,5 +1,6 @@
 @import url("reset.css");
 @import url("colors.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .grid-container {
 display: grid;
@@ -35,6 +36,9 @@ height:100vh;
 
 /* IPAD MEDIA QUERY */
 @media (min-width:768px){
+    h1 {  
+         font-family: 'Bebas Neue', cursive;
+        }
     section{
         width:760px;
         margin: auto;
@@ -49,4 +53,31 @@ height:100vh;
     .grid-item:nth-child(5){
         grid-row:auto;
     }
+    /* top left */
+    .grid-item.bg-blue {
+        background-image: url(https://i2.wp.com/dl.img-news.com/dl/img/s4/dl/2020/09/6-easy-nail-art-tutorials-to-dare-in-nail-design.img.jpeg?w=696&ssl=1);
+        background-size: cover;
+        background-position: center
+    }
+    /* bottom left */
+    .grid-item.bg-purple{
+        background-image: url(https://i.ytimg.com/vi/MHT6DwuwXVk/maxresdefault.jpg);
+        background-size: cover;
+        background-position: center
+    }
+    /*blue marble  */
+    .grid-item.bg-green{
+        background-image: url(https://chicnailart.com/wp-content/uploads/2020/04/galaxy-korean-embellished.jpg);
+        background-size: cover;;
+        align-items: center;
+        min-height: 100px;
+        background-position: 50% 0%;
+    }
+    /* brown nails */
+    .grid-item.bg-scarlet{
+        background-image: url(https://i.pinimg.com/564x/31/e5/84/31e5843637f5e064b7f2328689e6dca5.jpg);
+        background-size: cover;
+        background-position: center
+    }
+    
 }

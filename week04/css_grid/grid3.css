@@ -1,5 +1,6 @@
 @import url("reset.css");
 @import url("colors.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .grid-container {
 display: grid;
@@ -37,6 +38,9 @@ height:100vh;
 
 /* IPAD MEDIA QUERY */
 @media (min-width:768px){
+    h1{ 
+        font-family: 'Bebas Neue', cursive;
+    }
     section{
         width:760px;
         margin: auto;
@@ -58,30 +62,62 @@ height:100vh;
         background-color: transparent;
         border-width: 2px;
     }
-    .grid-item.bg-blue {
-       
+   
+    .grid-item.bg-scarlet a{
+        display: block;
+        float: left;
+        background-color:pink;
+        color:rgb(44, 34, 35);
+        padding: 12px;
+        text-decoration: none;
+        width: 162px;
+        text-align: center;
+        
     }
-    .grid-item.bg-scarlet{
-    
+
+    .grid-item.bg-scarlet li{
+        padding: 0px 0px 0px 0px;
+        }
+  .grid-item.bg-scarlet a:hover {
+        background-color:rgb(109, 56, 93);
+        color:aliceblue; 
+  }
+  
+  .grid-item.bg-scarlet a.active {
+        background-color: #4CAF50; /* Add a green color to the "active/current" link */
+        color: white;
     }
     .grid-item.bg-purple{
         background-color: transparent; 
+        border:none
     }
     #kawaiinails{
         border-radius: 10px; 
     }
-    .grid-item.bg-green{
-        
+    .grid-item.bg-green p{ 
+
+        text-align: center;
 
     } 
 
 
     .logo{
     float: left;
-    margin:10px 0px 0px 10px;
+    margin: 7px 0px 10px 15px;
+    font-family: 'Bebas Neue', cursive;
     color: grey;
+    font-weight: 100;
+    text-align: center;
+    font-size: 26px;
     }
-    
+
+    .sidebar_text{
+        margin:10px 10px 10px 10px;
+    color: grey;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    text-align: center;
+    }
     ul li{
     display: block;
     float: right;
@@ -91,5 +127,17 @@ height:100vh;
     a{
     text-decoration: none;
     color: grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     }
+    #footer_img {
+        position: absolute;
+        clip: rect(0px,606px,46px,0px);
+        border-radius: 10px;
+    }
+    p{
+        font-family:Arial, Helvetica, sans-serif;
+        color: grey;
+    }
+    
 }
