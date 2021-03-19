@@ -1,0 +1,29 @@
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > * {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .w-md-50 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .flex-container {
+        width: 1024px;
+        margin: auto;
+    }
+
+    .w-lg-33{
+        width: 33.333%
+    }
+
+    .w-lg-25 {
+        width:25%
+    }
+}

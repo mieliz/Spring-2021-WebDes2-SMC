@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
+
+    <title>Basic grid system</title>
+</head>
+<body>
+    
+    <header>
+        <!-- TODO: add navigation -->
+
+    </header>
+
+    <main>
+            <!-- MOBILE IPHONE X ALWAYS FULL WIDTH -->
+            <section class="flex-container">
+                <article class="bg-blue">1</article>
+            </section>
+
+            <!-- IPAD VERTICAL FULL WIDTH, MD: 50%, LA: 50% -->
+            <section class="flex-container">
+                <article class="bg-green w-md-50">2</article>
+                <article class="bg-blue w-md-50">3</article>
+            </section>
+
+            <!-- IPAD HORIZONTAL FULL WIDTH, MD: 50%, LG: 33% -->
+            <section class="flex-container">
+                <article class="bg-scarlet w-lg-33">4</article>
+                <article class="bg-blue w-md-50 w-lg-33">5</article>
+                <article class="bg-green w-md-50 w-lg-33">6</article>
+            </section>
+
+            <!-- DESKTOP FULL WIDTH, MD:50%, LG:25% -->
+            <section class="flex-container">
+                <article class="bg-scarlet w-md-50 w-lg-25">7</article>
+                <article class="bg-purple w-md-50 w-lg-25">8</article>
+                <article class="bg-blue w-md-50 w-lg-25">9</article>
+                <article class="bg-green w-md-50 w-lg-25">10</article>
+            </section>
+    </main>
+
+    <footer></footer>
+
+</body>
+</html>
