@@ -5,3 +5,9 @@
 article {
     height: 300px;
 }
+
+.jumbotron{
+    background-image: url(https://cdn2.civitatis.com/finlandia/levi/tour-aurora-boreal.jpg);
+    background-position: 0% 75%;
+    background-size: cover;
+}
