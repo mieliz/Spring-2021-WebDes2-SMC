@@ -18,6 +18,9 @@
         width: 1024px;
         margin: auto;
     }
+    .w-md-50 {
+        width: 50%;
+    }
 
     .w-lg-33{
         width: 33.333%

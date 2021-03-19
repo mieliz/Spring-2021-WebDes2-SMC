@@ -3,11 +3,21 @@
 @import url("grid.css");
 
 article {
-    height: 300px;
+    min-height: 300px;
 }
 
 .jumbotron{
     background-image: url(https://cdn2.civitatis.com/finlandia/levi/tour-aurora-boreal.jpg);
     background-position: 0% 75%;
     background-size: cover;
+}
+
+.jumbotron h1,
+.jumbotron h3 {
+    color: rgb(250, 245, 255);
+    padding-left: 5%;
+}
+
+.jumbotron h1{
+    margin-top: 200px;
 }
