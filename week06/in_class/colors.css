@@ -1,0 +1,23 @@
+/* COLORS */
+.bg-blue {
+    background-color: rgb(81, 50, 255);
+}
+.bg-purple {
+    background-color: rgb(136, 69, 116);
+}
+.bg-green {
+    background-color: rgb(84, 240, 188);
+}
+.bg-scarlet {
+    background-color: rgb(230, 71, 98);
+}
+
+.bg-smoke {
+    background-color: rgba(170, 170, 170, .68)
+}
+
+/* TEXT COLOR */
+
+.txt-light {
+    color:rgb(240, 240, 240);
+}
