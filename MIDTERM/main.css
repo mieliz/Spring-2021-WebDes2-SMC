@@ -1,0 +1,52 @@
+@import url("reset.css");
+@import url("colors.css");
+@import url("grid.css");
+@import url("flex-order.css");
+@import url("nav.css");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Roboto:wght@100&display=swap');
+
+article {min-height:300px}
+
+.jumbotron{
+    background-image: url(https://visitshakopee.org/wp-content/uploads/2018/11/Maxx-Spa-and-Nails.jpeg);
+    background-position: 0% 75%;
+    background-size: cover;
+}
+.b2{
+    background-image: url(https://images.pexels.com/photos/50570/sandstone-the-wave-rock-nature-50570.jpeg);
+    background-position: 0% 75%;
+    background-size: cover;
+}
+.b3{
+    background-image: url(https://www.iesabroad.org/files/styles/hero_desktop/public/city/madrid.jpg?itok=1L-yDkfS&timestamp=1505415009);
+    background-position: 0% 75%;
+    background-size: cover;
+}
+.jumbotron h1 {
+    color: rgb(250, 245, 255);
+    padding-left: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size:8vh;
+}
+.jumbotron h3 {
+    color: rgb(250, 245, 255);
+    padding-left: 5%;
+}
+
+.jumbotron h1{
+    margin-top: 200px;
+}
+
+.fashion {
+    height: 250px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+p , li, ul {
+    font-family: 'Roboto', sans-serif;
+}
