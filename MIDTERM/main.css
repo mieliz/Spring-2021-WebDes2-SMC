@@ -4,6 +4,8 @@
 @import url("flex-order.css");
 @import url("nav.css");
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Roboto:wght@100&display=swap');
+@import url(contact_form.css);
+@import url(toggle.css);
 
 article {min-height:300px}
 
@@ -13,25 +15,35 @@ article {min-height:300px}
     background-size: cover;
 }
 .b2{
-    background-image: url(https://images.pexels.com/photos/50570/sandstone-the-wave-rock-nature-50570.jpeg);
-    background-position: 0% 75%;
+    background-image: url(https://www.newimagenailspa.com/images/staff/2020/NINS-Staff-2020-7230.jpg);
+    background-position: 0% 10%;
     background-size: cover;
 }
 .b3{
-    background-image: url(https://www.iesabroad.org/files/styles/hero_desktop/public/city/madrid.jpg?itok=1L-yDkfS&timestamp=1505415009);
+    background-image: url(https://altice.net/sites/default/files/header/contact_header_0.jpg);
     background-position: 0% 75%;
     background-size: cover;
 }
-.jumbotron h1 {
+.jumbotron h1  {
     color: rgb(250, 245, 255);
     padding-left: 5%;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size:8vh;
+    text-shadow: 2px 2px 4px #000000;
+}
+.lg-head  {
+    color: rgb(91, 78, 104);
+    padding-left: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size:8vh;
+    text-align: center;
 }
 .jumbotron h3 {
     color: rgb(250, 245, 255);
     padding-left: 5%;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .jumbotron h1{
@@ -46,7 +58,21 @@ h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
 }
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 6vh;
+}
 
 p , li, ul {
     font-family: 'Roboto', sans-serif;
+}
+
+.srv {
+    background-color: rgba(255, 255, 255, 0.461);
+    
+}
+
+.srvlist {
+    text-align: center;
 }
