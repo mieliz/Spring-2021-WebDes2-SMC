@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,23 +27,20 @@
 
 </head>
 <body id="docBody">
-    <h1 id="myHeading">Hello, <span id="userName"> World</span>!</h1>
+    <h1 id="myHeading">Hello, <span id="userName"></span>!</h1>
     
     <div id="myDiv">
-        <img id="cutecat" src="https://i.pinimg.com/originals/0c/1c/a1/0c1ca1955e2b0c5469ba17da2b1b9b96.jpg" alt="cute cat">
+        <img id="cutecat" src="Document_files/0c1ca1955e2b0c5469ba17da2b1b9b96.jpg" alt="cute cat">
     </div>
 
     <button href="#" id="colorChange">Change the color</button>
     
-    <button type="button" 
-    onclick="document.getElementById('myHeading').style.color = 'white'">
+    <button type="button" onclick="document.getElementById('myHeading').style.color = 'white'">
     Turn Header Red!</button>
 
-    <button href="cat" type="button" 
-    onclick="document.getElementById('cutecat').style.visibility = 'visible' id="cutecat">
+    <button href="#" type="button" onclick="document.getElementById('cutecat').style.visibility = 'visible'" id="cutecat">
     Show Cute Cat!</button>
-
-    <button>hey</button>
+<button>hey</button>
 
     <script>
         console.log("This is your page talking to you!");
@@ -56,7 +53,6 @@
         let trigButton = document.getElementById("colorChange");
         let docHeading = document.getElementById("myHeading");
         let kitty = document.getElementById("cutecat");
-        let cat = document.getElementById("cutecat");
 
         console.log(trigButton);
 
@@ -83,24 +79,46 @@
             }
     
         });
-        
-        console.log(kitty);
-        
-        kitty.addEventListener("click", function(){
-            let userAnswer = confirm("Are you sure you want to do this?");
-            console.log(userAnswer);
-
-            if(userAnswer == true){
-                kitty.style.visibility = 'visible';
-            }
-            else {
-                alert("No action will be taken");
-            }
-    
-        });
 
         
     </script>
 
-</body>
-</html>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
