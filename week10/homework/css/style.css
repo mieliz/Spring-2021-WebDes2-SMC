@@ -10,9 +10,7 @@ body{
 	margin: 0;
 	background: #fff;
 	min-height: 100vh;
-	background:linear-gradient( to right bottom , #273c75 ,  #079992  );
-	background-repeat: no-repeat;
-}
+	}
 img{
 	max-width: 100%;
 }
