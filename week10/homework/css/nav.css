@@ -20,8 +20,7 @@ nav ul {
     flex-direction: column;
 }
 .logo {
-    width: 8%;
-    height: 100%;
+    width:100px;
 }
 a.o-b-1 {
     background-color: transparent;
@@ -36,8 +35,7 @@ nav ul li:last-child{
 
 @media(min-width: 768px) {
     .logo {
-        width: 8%;
-        height: 100%;
+        width:8%;
     }
 
      nav {
