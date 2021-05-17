@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to jQuery</title>
+
+    <style>
+        img {
+            position: relative;
+            height: 657px;
+        }
+    </style>
+</head>
+<body>
+    <div id="paragraphs">
+        <p id="myP">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci eveniet quod accusamus beatae exercitationem debitis. Consequatur qui temporibus, libero distinctio praesentium minima ducimus sed obcaecati provident, laudantium similique quibusdam eaque?</p>
+    </div>
+
+    <div class="img-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Quokka_at_rottnest_%28cropped%29.jpg" alt="Quokka at home">
+    </div>
+
+    <hr>
+    
+    <button id="addMore">Add another line</button>
+    <button id="removeSome">Remove clones</button>
+    <button id="hideImg">Hide the image</button>
+    <button id="showImg">Show the image</button>
+    <button id="toggleImg">Toggle the image</button>
+    <button id="fadeImgOut">Fade the image out</button>
+    <button id="slideImgDown">Slide the image down</button>
+    <button id="customAnim">Custom Animation</button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // let addTextB = document.getElementById("addMore");
+        // let textP = document.getElementById("myP");
+
+        // addTextB.addEventListener("click", function(){
+        //     let contentP = textP.innerText;
+
+        //     let newP = document.createElement('p');
+        //     newP.innerText = contentP;
+        //     document.getElementById("paragraphs").appendChild(newP);
+
+        // })
+        
+        $("#addMore").click(function(){
+            let cloneP = $("#myP").clone();
+            cloneP.addClass("cloned");
+            $("#paragraphs").append( cloneP );
+            //$("#myP").clone().appendTo("#paragraphs");
+        });
+
+        $("#removeSome").click(function(){
+            $(".cloned").remove();
+        })
+
+        $("#hideImg").click(function(){
+            $(".img-container img").hide();
+        })
+
+        $("#showImg").click(function(){
+            $(".img-container img").show();
+        })
+
+        $("#toggleImg").click(function(){
+            $(".img-container img").toggle();
+        })
+
+
+        $("#fadeImgOut").click(function(){
+            $(".img-container img").fadeOut(2000, function(){
+                $(".img-container").append("<h3>Image has finshed fading out!</h3>");
+            });
+        })
+
+        $("#slideImgDown").click(function(){
+            $(".img-container img").slideDown(1000, function(){
+                $(".img-container h3").remove();
+            })
+        })
+
+        $("#customAnim").click(function(){
+            $(".img-container img").animate( 
+                //objects with CSS properies to animate:
+                {
+                    width: "0%", 
+                    left: 500 
+                }
+            );
+        })
+        
+
+    </script>
+</body>
+</html>
