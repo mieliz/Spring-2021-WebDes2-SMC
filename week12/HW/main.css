@@ -1,0 +1,12 @@
+@import url("grid.css");
+img {
+    position: relative;
+    width: 400px;
+}
+.img-container {
+    flex-wrap: wrap;
+}
+
+p {
+font-size: 40px;
+}
