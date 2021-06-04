@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Roboto:wght@100&display=swap');
 @import url(contact_form.css);
 @import url(toggle.css);
+@import url(donategrid.css);
 
 article {min-height:200px}
 
@@ -22,7 +23,7 @@ article {min-height:200px}
     min-height:600px;
 }
 .b2{
-    background-image: url(https://www.newimagenailspa.com/images/staff/2020/NINS-Staff-2020-7230.jpg);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Rainbow_flag_and_blue_skies.jpg/1280px-Rainbow_flag_and_blue_skies.jpg);
     background-position: 0% 10%;
     background-size: cover;
     min-height:600px;
@@ -35,7 +36,7 @@ article {min-height:200px}
 }
 
 .contactpic {
-    background-image: image();
+    background-image: url(https://raw.githubusercontent.com/mieliz/Spring-2021-WebDes2-SMC/main/Final/map.png);
     background-position: 0% 75%;
     background-size: cover;
     min-height:600px;
