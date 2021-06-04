@@ -39,9 +39,13 @@
 }
 
 @media (min-width: 1024px) {
+    
     .flex-container {
         width: 1024px;
         margin: 0px auto 20px;
+    }
+    .home {
+        width: auto;
     }
     .w-lg-25 {
         width: 25%;

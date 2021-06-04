@@ -35,13 +35,17 @@ nav ul li:last-child{
 
 @media(min-width: 768px) {
     .logo {
-        width:10%;
+        width:200px;
     }
+
+ul {
+    align-items: center;
+}
 
      nav {
          background-color:white;
          flex-direction: row;
-         height: 64px;
+         height: 100px;
          position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
