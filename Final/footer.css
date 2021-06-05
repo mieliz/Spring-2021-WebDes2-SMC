@@ -1,0 +1,10 @@
+.footer {
+    height:200px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(114, 138, 140);
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
