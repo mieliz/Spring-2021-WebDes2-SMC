@@ -18,30 +18,39 @@ article {min-height:200px}
     min-height:600px
 }
 .b1{
-    background-image: url(https://37vtay3mmzd7nxd582dguu4m-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/center_homepage_2018.jpg);
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(https://37vtay3mmzd7nxd582dguu4m-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/center_homepage_2018.jpg);
     background-position: 10% 10%;
     background-size: cover;
     min-height:600px;
 }
 .b2{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Rainbow_flag_and_blue_skies.jpg/1280px-Rainbow_flag_and_blue_skies.jpg);
+    background-image:linear-gradient(to left, rgba(245, 246, 252, 0.132), rgba(117, 19, 93, 0.53)), url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Rainbow_flag_and_blue_skies.jpg/1280px-Rainbow_flag_and_blue_skies.jpg);
     background-position: 0% 10%;
     background-size: cover;
     min-height:600px;
 }
 .b3{
-    background-image: url(https://altice.net/sites/default/files/header/contact_header_0.jpg);
+    background-image: url(https://gilbertcentre.ca/wp-content/uploads/2016/08/youth-page-header.jpg);
     background-position: 0% 75%;
     background-size: cover;
     min-height:600px;
 }
 
 .contactpic {
-    background-image: url(https://raw.githubusercontent.com/mieliz/Spring-2021-WebDes2-SMC/main/Final/map.png);
+    background-image:linear-gradient(to left, rgba(245, 246, 252, 0.132), rgba(117, 19, 93, 0.53)), url(https://raw.githubusercontent.com/mieliz/Spring-2021-WebDes2-SMC/main/Final/map.png);
     background-position: 0% 75%;
     background-size: cover;
     min-height:600px;
 }
+.historypic {
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(https://37vtay3mmzd7nxd582dguu4m-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/intro-img6.jpg);
+    background-position: 0% 75%;
+    background-size: cover;
+    min-height:20px;
+}
+
+
+
 .jumbotron h1  {
     color: rgb(250, 245, 255);
     padding-left: 5%;
@@ -49,6 +58,12 @@ article {min-height:200px}
     font-weight: 500;
     font-size:8vh;
     text-shadow: 2px 2px 4px #000000;
+}
+.historypic {
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(https://37vtay3mmzd7nxd582dguu4m-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/intro-img6.jpg);
+    background-position: 0% 10%;
+    background-size: cover;
+    min-height:20px;
 }
 .lg-head  {
     color:black
@@ -67,6 +82,12 @@ article {min-height:200px}
 .jumbotron h1{
     margin-top: 200px;
 }
+.historypic h1 {
+    text-align: center;
+    padding: 0px;
+    margin: 75px 0px 75px 0px;
+    text-transform: uppercase;
+}
 
 .fashion {
     height: 250px;
@@ -75,6 +96,7 @@ article {min-height:200px}
 h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+    max-width: 400px;
 }
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -94,3 +116,4 @@ p , li, ul {
 .srvlist {
     text-align: center;
 }
+
