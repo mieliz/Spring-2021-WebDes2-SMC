@@ -17,4 +17,19 @@ ul.nav-links {
     .toggle-button {
         display: none;
     }
+    label[for=menuToggle] {
+        display: none;
+    }
+
+    header nav ul {
+        display: block;
+        float: right;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        border-bottom: 0px;
+    }
+
+
 }

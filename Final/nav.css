@@ -16,7 +16,7 @@ nav {
     padding:10px;
 }
 nav ul {
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 .logo {
@@ -55,7 +55,8 @@ ul {
      }
      
      nav ul {
-         flex-direction:row;
+        display: flex; 
+        flex-direction:row;
          flex-grow:1;
          justify-content: space-evenly;
      }
@@ -76,9 +77,15 @@ ul {
      main {
          margin-top: 64px;
      }
+     .navlinks{
+        display: flex;
+       }
     }
     @media(min-width: 1027px) {
        nav ul {
 width: 1027px;
        } 
+       .navlinks{
+        display: flex;
+       }
     }
