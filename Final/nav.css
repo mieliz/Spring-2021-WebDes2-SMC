@@ -20,15 +20,17 @@ nav ul {
     flex-direction: column;
 }
 .logo {
-    width:100px;
-    margin-right: 300px;
+    /* width:100px;
+    margin-right: 300px; */
+    margin: auto;
 }
 a.o-b-1 {
     background-color: transparent;
 }
 nav ul li {
     padding: 10px 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #cce6f0;
+    text-align: center;
 }
 nav ul li:last-child{
     border-bottom: none;
