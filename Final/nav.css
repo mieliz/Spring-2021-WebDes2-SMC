@@ -76,9 +76,7 @@ ul {
      header {
          height: auto;
          }
-     main {
-         margin-top: 64px;
-     }
+     
      .navlinks{
         display: flex;
        }
