@@ -36,11 +36,11 @@
   display: inline-block;
   border-bottom: 2px solid transparent;
   transition: background-color 1.5s, border-bottom 5s;
-  border-radius: 10px;
+  border-radius: 10px ;
 }
 
 .nav-link:hover {
-  background-color: rgba(185, 102, 184, 0.28);
+  background-color: rgba(185, 102, 184, 0.28) !important;
 }
 
 .hovereffect {
