@@ -120,8 +120,18 @@ p , li, ul {
 }
 
 .stick {
-    /* position: -webkit-sticky;
+    position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: white; */
+  background-color: white;
+  width:100vw
+}
+
+.headerbg {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 125.3px;
+    width:100vw;
+    box-shadow: 10px 20px 75px 10px rgba(128, 128, 128, 0.199);
 }
