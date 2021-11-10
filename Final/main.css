@@ -135,3 +135,8 @@ p , li, ul {
     width:100vw;
     box-shadow: 10px 20px 75px 10px rgba(128, 128, 128, 0.199);
 }
+@media (max-width:766px) {
+    .headerbg {
+    height: 141.3px;
+    }
+}
