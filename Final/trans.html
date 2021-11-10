@@ -4,37 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link href="main.css" rel="stylesheet">
+    <!-- !-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/headers/">
+
+    <link href="headers.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
     <title>Trans Social Support Group</title>
 </head>
 <body>
     
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
     
-    <header>
-        <!-- TODO: add navigation -->
-        <nav>
-                <div class="logo">
-                    <a href="index.html" class="o-b-1"><img src="logo.png" alt="nail logo" class="logo" /></a> 
-                </div>
-                
-                <div>
-                    <label for="toggleAssist">
-                    <img src="https://www.pngfind.com/pngs/m/322-3229312_hamburger-menu-icon-png-transparent-png.png" class="toggle-button" alt="hamburger menu toggle button">
-                  </label>
-                  <input type="checkbox" id="toggleAssist">
-                </div>
-
-        <ul class="navlinks">
-            <li class="o-b-m2"><a href="index.html">Page 1</a></li>
-            <li class="o-b-m1"><a href="blog.html">EVENTS</a></li>
-            <li class="o-b-2"><a href="about_us.html">ABOUT</a></li>
-            <li class="o-b-3"><a href="donate.html">DONATE</a></li>
-        </ul>
-    </nav>
-    </header>
+    
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3">
+            <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+              <img class="bi me-2" width="250" <img src="logo.png"</img>
+              <span class="fs-4"></span>
+            </a>
+    
+          <ul class="nav nav-pills align-items-center">
+            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="donate.html" class="nav-link">Donate</a></li>
+            <li class="nav-item"><a href="about_us.html" class="nav-link">About Us</a></li>
+          </ul>
+        </header>
+    </div>
     <main>
             <!-- MOBILE IPHONE X ALWAYS FULL WIDTH -->
             <section class="flex-container home">
